@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog - Sabbir Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet" />
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/preloader.min.css" rel="stylesheet" />
+    <link href="css/circle.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet" />
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body class="blog-post">
+    <!-- Live Style Switcher Starts - demo only -->
+    <div id="switcher" class="">
+      <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"
+              ><img src="img/styleswitcher/purple.png" alt="purple"
+            /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red" /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"
+              ><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"
+            /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue" /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"
+              ><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"
+            /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"
+              ><img src="img/styleswitcher/magenta.png" alt="magenta"
+            /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"
+              ><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"
+            /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"
+              ><img src="img/styleswitcher/orange.png" alt="orange"
+            /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green" /></a>
+          </li>
+          <li>
+            <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"
+              ><img src="img/styleswitcher/yellow.png" alt="yellow"
+            /></a>
+          </li>
+        </ul>
+
+        <div id="hideSwitcher">&times;</div>
+      </div>
+    </div>
+    <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+    <!-- Live Style Switcher Ends - demo only -->
+    <!-- Header Starts -->
+    <header class="header" id="navbar-collapse-toggle">
+      <!-- Fixed Navigation Starts -->
+      <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+          <i class="fa fa-home"></i>
+          <a href="index.html">
+            <h2>Home</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-user"></i>
+          <a href="about.html">
+            <h2>About</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-briefcase"></i>
+          <a href="portfolio.html">
+            <h2>Portfolio</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-envelope-open"></i>
+          <a href="contact.html">
+            <h2>Contact</h2>
+          </a>
+        </li>
+        <li class="icon-box active">
+          <i class="fa fa-comments"></i>
+          <a href="blog.html">
+            <h2>Blog</h2>
+          </a>
+        </li>
+      </ul>
+      <!-- Fixed Navigation Ends -->
+      <!-- Mobile Menu Starts -->
+      <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="list-unstyled" id="menu">
+            <li>
+              <a href="index.html"><i class="fa fa-home"></i><span>Home</span></a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa fa-user"></i><span>About</span></a>
+            </li>
+            <li>
+              <a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a>
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a>
+            </li>
+            <li class="active">
+              <a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Menu Ends -->
+    </header>
+    <!-- Header Ends -->
+    <!-- Page Title Starts -->
+    <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+      <h1>my <span>blog</span></h1>
+      <span class="title-bg">posts</span>
+    </section>
+    <!-- Page Title Ends -->
+    <!-- Main Content Starts -->
+    <section class="main-content revealator-slideup revealator-once revealator-delay1">
+      <div class="container">
+        <div class="row">
+          <!-- Article Starts -->
+          <article class="col-12">
+            <!-- Meta Starts -->
+            <div class="meta open-sans-font">
+              <span><i class="fa fa-user"></i> Sabbir</span>
+              <span class="date"><i class="fa fa-calendar"></i> 1 January 2022</span>
+              <span><i class="fa fa-tags"></i> Elementor</span>
+            </div>
+            <!-- Meta Ends -->
+            <!-- Article Content Starts -->
+            <h1 class="text-uppercase text-capitalize">4 Ways Web Design Impacts Your SEO</h1>
+            <p>
+              A decade ago, SEO was much more straightforward. It mostly revolved around keywords and content. However, over time and thanks to the
+              constantly increasing number of internet users around the world, on a variety of devices, search engines have evolved to become more
+              user-oriented. While ranking is still largely about what you do off page, and you would do well to consider professionals like SEO
+              Brisbane, search engines now crawl websites with the intention of analyzing how well they meet user needs and demands, answer their
+              questions, and enhance their web browsing experience.
+            </p>
+            <img src="img/blog/blog-post-6.png" class="img-fluid" alt="Blog image" />
+            <div class="blog-excerpt open-sans-font pb-5">
+              <p>
+                Search engines do not just require a website and that's it. They are concerned with how well it delivers a web experience that
+                provides users what they want as quickly as possible, in as few clicks as possible, and in the most far-ranging and informative way
+                possible With that as our starting point, let's dive into the 4 ways that web design affects your SEO and ranking.
+              </p>
+              <!--  -->
+
+              <h5><b>Search Engines Won't Rank a Poorly Designed Site</b></h5>
+            
+              <p>Search engines are designed to rank based on a number of human likes and dislikes. What confuses and annoys human beings also puts off search engines. For example, making use of overly complex layouts, obnoxious flashing ads, distracting popups, unprofessional fonts, etc., are all detractors when it comes to improving your ranking in the search engines. The good thing is, however, that you do not have to live with bad elements. You can turn to SEO-friendly templates, fonts, and designs that boost search engine rankings.
+</p> <br>
+               <p> There are plenty of online businesses offering great products and services that are trying in earnest to attract customers and do good business, but whose primary pages will never rank highly in the SERPs because their website is just not well designed. Consider looking into professional web design before getting your site up and running, or at least educating yourself on the basics of modern web design so that your site stands a chance of being recognized by Google and other search engines.</p>
+
+              <!--  -->
+                 <!--  -->
+              
+                 <h5><b>Search Engines Favor Easy Navigation</b></h5>
+            
+                 <p>Websites are the face of every firm in today's digital economy, where virtual recognition is important. The ease of navigation of the website is a significant component in website design and development. While websites with better navigation are more user-friendly, websites that are difficult to navigate are a turn-off. Regardless of the content, such a website does not pique the interest of users. It has a lower likelihood of ranking well in search engines.</p>
+   
+                 <!--  -->
+                    <!--  -->
+              
+              <h5><b>Search Engines Reward Speedy Sites</b></h5>
+            
+              <p>Google said in 2010 that it would include website speed when deciding a website's ranking because it is directly concerned with user experience. A slow-loading website is one of the most unpleasant and annoying concerns when surfing the internet. Websites that take more than three seconds to load no longer score well in search engines because search engines have become extremely user-friendly.
+</p> <br>
+               <p> There are plenty of ways you can improve the loading speed of your pages, and especially your landing page. You can optimize your images for a faster loading time; reduce the number of HTTP requests you are getting; utilize caching so that pages load quicker for your return visitors and customers; streamline your HTML, and clean up your media library. If people are arriving at your site and abruptly leaving because it simply takes too long to load, Google will penalize you for having a high bounce rate.</p>
+
+              <!--  -->
+                 <!--  -->
+              
+                 <h5><b>Search Engines Prefer Responsive Design</b></h5>
+            
+                 <p>With practically everyone now owning a smartphone, mobile phones account for more than half of all website traffic. A mobile-friendly design allows people to surf the website using their mobile phones rather than laptops or desktop computers. Search engines, ultimately, like ranking websites that have a mobile-responsive design, in addition to other important characteristics such as content, navigational ease, layout, and so on.
+</p> <br>
+           <p>       Responsiveness basically refers to the ability of your site to display well across various screen sizes and browser types. If you have ever visited a website on your phone that was clearly not designed to be easily navigable on a small screen, you know how frustrating the experience is and how little patience you have for such sites. While designing your site, you can usually toggle back and forth between different screen size previews in most page builders. You can also run your site through any number of responsiveness testers and diagnostics tools to see what you are doing wrong and implement fixes.</p>
+   
+                 <!--  -->
+                    <!--  -->
+              
+              <h5><b>Conclusion</b></h5>
+            
+              <p>Your SEO and your web design are intimately linked. Design is part of what is known as on-page SEO, where how and what a user sees when they arrive at their site inform their experience while browsing and ultimately Google's quality ranking of your website. Responsive web design and SEO are virtually synonymous since the goal of every site and online business owner is to have their viewers browsing, navigating, and purchasing as quickly as possible. Keep the above considerations in mind and ensure that you are building a site that will be viewed favorably by your users and, consequently, ranked highly by the search engines.</p>
+
+              <!--  -->
+            
+
+
+
+
+
+            </div>
+            <!-- Article Content Ends -->
+          </article>
+          <!-- Article Ends -->
+        </div>
+      </div>
+    </section>
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/styleswitcher.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
